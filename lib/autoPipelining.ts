@@ -7,6 +7,7 @@ export const kCallbacks = Symbol("callbacks");
 export const notAllowedAutoPipelineCommands = [
   "auth",
   "info",
+  "ping",
   "script",
   "quit",
   "cluster",

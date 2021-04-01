@@ -59,11 +59,9 @@ describe("Pipeline", function () {
     p.get();
     p.set();
     p.del();
-    p.ping();
 
     validate("get");
     validate("set");
     validate("del");
-    validate("ping");
   });
 });
